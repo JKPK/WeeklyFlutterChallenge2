@@ -1,0 +1,37 @@
+name: flutter_challenge_002_foxy_weather
+description: Weekly Flutter Challenge 2
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/background.png
+   - assets/icons/bottom_arrow.png
+   - assets/icons/humidity.png
+   - assets/icons/wind.png
+   - assets/icons/cloudy_with_sun.png
+   - assets/icons/cloudy.png
+   - assets/icons/foggy.png
+   - assets/icons/rainy.png
+   - assets/icons/snowy.png
+   - assets/icons/stormy.png
+   - assets/icons/sunny.png
+
+  fonts:
+    - family: Comfortaa
+      fonts:
+        - asset: assets/fonts/Comfortaa-Regular.ttf
